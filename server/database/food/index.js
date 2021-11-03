@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-const FoodSchema = new mongoose.schema({
+const FoodSchema = new mongoose.Schema({
     name:{type:String,required:true},
     description:{type:String,required:true},
     isVeg:{type:Boolean,required:true},
@@ -18,7 +18,7 @@ const FoodSchema = new mongoose.schema({
             ref:"Foods"       //self referncing
         }
     ],
-    restaurants:{
+    restaurant:{
         type:mongoose.Types.ObjectId,
         ref:"Restaurants",
         required:true
