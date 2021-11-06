@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 import RestaurantCard from '../RestaurantCard'
 import DeliveryCarousal from './DeliveryCarousal'
 
+
+
 function Delivery() {
     const [restaurantList, setRestaurantList] = useState([
         {

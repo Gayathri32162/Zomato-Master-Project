@@ -1,13 +1,38 @@
 import React from 'react'
-
+import NutritionCarousel from './NutritionCarousel';
+import NutritionCard from "./NutritionCard"
 //components
 import NutritionHeroCarousel from "./NutritionHeroCarousel";
 
 
 function Nutrition() {
     return (
-        <div>
+        <div style={{paddingBottom:"66px"}}>
             <NutritionHeroCarousel/>
+            <div className="my-6">
+                <NutritionCarousel/>
+            </div>
+            <div className="flex  flex-wrap">
+                <NutritionCard bg="red"
+                image="https://dote.zmtcdn.com/prod/data/admin_assets/images/985/1db983abf8a38bdebb42171b5ea7d985_1614756360.png?output-format=webp"
+                />
+                <NutritionCard bg="red"
+                image="https://dote.zmtcdn.com/prod/data/admin_assets/images/985/1db983abf8a38bdebb42171b5ea7d985_1614756360.png?output-format=webp"
+                />
+                <NutritionCard bg="red"
+                image="https://dote.zmtcdn.com/prod/data/admin_assets/images/985/1db983abf8a38bdebb42171b5ea7d985_1614756360.png?output-format=webp"
+                />
+                <NutritionCard bg="red"
+                image="https://dote.zmtcdn.com/prod/data/admin_assets/images/985/1db983abf8a38bdebb42171b5ea7d985_1614756360.png?output-format=webp"
+                />
+                <NutritionCard bg="red"
+                image="https://dote.zmtcdn.com/prod/data/admin_assets/images/985/1db983abf8a38bdebb42171b5ea7d985_1614756360.png?output-format=webp"
+                />
+                <NutritionCard bg="red"
+                image="https://dote.zmtcdn.com/prod/data/admin_assets/images/985/1db983abf8a38bdebb42171b5ea7d985_1614756360.png?output-format=webp"
+                />
+                
+            </div>
         </div>
     )
 }
