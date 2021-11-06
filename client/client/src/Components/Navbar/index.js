@@ -6,7 +6,7 @@ import {HiLocationMarker} from "react-icons/hi";
 import {IoMdArrowDropdown, IoMdArrowDropup} from "react-icons/io";
 import {RiSearch2Line} from "react-icons/ri";
 
-const MobileNav = () => {
+const MobileNav = ({user,isDropdownOpen,setIsDropdownOpen}) => {
     return(
         <>
         <div className="items-center justify-between flex w-full md:hidden">

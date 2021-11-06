@@ -1,6 +1,11 @@
 //HOC
 import HomeLayoutHOC from "./HOC/Home.HOC.js"; 
 
+
+//import css wdiles from react-slick
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 //Components
 import Temp from "./Components/temp.js";
 
