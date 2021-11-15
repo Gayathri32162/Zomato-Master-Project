@@ -3,7 +3,7 @@ import {Route} from "react-router-dom";
 
 
 //Layout
-import RestaurantLayout from "../Layout/RestaurantLayout"
+import RestaurantLayout from "../Layout/Restaurant.Layout"
 
 
 const RestaurantLayoutHOC = ({component: Component,...rest}) =>{

@@ -8,7 +8,7 @@ function RestaurantCard(props) {
     const [isPro] = useState(false);
     const [isOff] = useState(true);
     return (
-        <Link to={`/restaurant/212432ffsdfa}`} className="w-full md:w-1/2 lg:w-1/3">
+        <Link to={`/restaurant/212`} className="w-full md:w-1/2 lg:w-1/3">
             <div className="bg-white p-4 mb-4 rounded-2xl transition duration-700 ease-in-out hover:shadow-lg " 
             style={{maxWidth:"19rem"}}>
                 <div className="w-full h-56 lg:h-64 relative">
