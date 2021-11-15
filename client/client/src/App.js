@@ -2,9 +2,11 @@
 import HomeLayoutHOC from "./HOC/Home.HOC.js"; 
 import RestaurantLayoutHOC from "./HOC/Restaurant.HOC.jsx";
 
-//import css wdiles from react-slick
+// Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+
 import { Redirect,Route } from "react-router";
 
 //Pages

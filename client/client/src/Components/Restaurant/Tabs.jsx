@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from "classnames"
-import {useLocation,Link,useParams} from "react-route-dom";
+import {useLocation,Link,useParams} from "react-router-dom";
 
 
 
@@ -23,7 +23,7 @@ function Tabs() {
     const location=useLocation();
     const currentPath=location.pathname;
 
-    const tags=[
+    const tabs=[
         {
             title:"Overview",
             route:"over",
@@ -53,8 +53,8 @@ function Tabs() {
     return (
         <>
         <div className="flex relative items-center pb-4 gap-8 md:gap-20 overflow-x-auto border-b-2">
-            {
-                Tabs.map((tab)=>(
+            
+                {tabs.map((tab)=>(
                     <Tab {...tab} key={`123${tab.route}`}/>
                 ))
             }
